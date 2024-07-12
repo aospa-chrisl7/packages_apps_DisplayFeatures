@@ -18,7 +18,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/display_features_title">
 
-    <SwitchPreferenceCompat
+    <SwitchPreference
         android:key="dc_dimming"
         android:defaultValue="false"
         android:title="@string/dc_dimming_title"
@@ -33,13 +33,13 @@
                 android:targetClass="com.android.displayfeatures.display.DisplayFeaturesDcDimScheduleActivity" />
     </Preference>
 
-    <SwitchPreferenceCompat
+    <SwitchPreference
         android:key="hbm"
         android:defaultValue="false"
         android:title="@string/hbm_title"
         android:summary="@string/hbm_summary" />
 
-    <SwitchPreferenceCompat
+    <SwitchPreference
         android:key="fps"
         android:title="@string/fps_title"
         android:summary="@string/fps_summary"
